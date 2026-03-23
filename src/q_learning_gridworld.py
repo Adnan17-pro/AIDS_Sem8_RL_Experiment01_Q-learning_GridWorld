@@ -85,4 +85,5 @@ plt.plot(rewardTracker)
 plt.title("Training Rewards over Episodes")
 plt.xlabel("Episodes")
 plt.ylabel("Reward")
+plt.savefig("rewards_plot.png")   # ADD THIS
 plt.show()
