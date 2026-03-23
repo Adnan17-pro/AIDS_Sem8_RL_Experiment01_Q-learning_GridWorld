@@ -1,4 +1,4 @@
-# AIDS_Sem8_RL_Experiment01_Q-learning_GridWorld
+# AIDS_Sem8_RL_Experiment01_Qlearning_GridWorld
 
 # Experiment No. 1: Q-Learning in Grid World
 
