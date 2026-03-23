@@ -5,20 +5,13 @@
 ## 🎯 Aim
 To implement a simple grid-world environment and train an agent using the Q-learning algorithm.
 
----
-
 ## 📌 Problem Statement
 Design a grid-world environment and apply Q-learning to enable an agent to learn the optimal path to reach the goal state.
 
----
-
 ## 📖 Theory
-
 Q-learning is an off-policy reinforcement learning algorithm used to determine the optimal action-selection policy.
-
 - It learns a Q-table representing state-action values.
 - The agent updates Q-values using the Bellman equation:
-  
   Q(s, a) = Q(s, a) + α [r + γ max Q(s', a') − Q(s, a)]
 
 Where:
@@ -27,8 +20,6 @@ Where:
 - r = reward
 
 The goal is to maximize cumulative reward.
-
----
 
 ## ⚙️ Implementation
 
@@ -39,23 +30,16 @@ The goal is to maximize cumulative reward.
 5. Updated Q-values using Q-learning formula
 6. Extracted optimal policy after training
 
----
-
 ## 📊 Results
 
 - The agent successfully learned the optimal path to reach the goal.
 - Rewards improved over episodes.
 - Q-table converged to optimal values.
 
-(Refer to outputs folder for plots)
-
----
 
 ## ✅ Conclusion
 
 Q-learning effectively enables an agent to learn optimal behavior in a grid-world environment through trial and error.
-
----
 
 ## 📚 References
 
